@@ -9,6 +9,7 @@ import { CockpitComponent } from './cockpit/cockpit.component';
 import { GamecontrolComponent } from './gamecontrol/gamecontrol.component';
 import { OddComponent } from './odd/odd.component';
 import { EvenComponent } from './even/even.component';
+import { BasicHighlight } from './BasicDirectives/basic-higlight.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { EvenComponent } from './even/even.component';
     CockpitComponent,
     GamecontrolComponent,
     OddComponent,
-    EvenComponent
+    EvenComponent,
+    BasicHighlight
   ],
   imports: [
     BrowserModule,

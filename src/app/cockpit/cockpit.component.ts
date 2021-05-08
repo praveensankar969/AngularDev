@@ -5,7 +5,7 @@ import {AppComponent} from '../app.component';
   selector: 'app-cockpit',
   templateUrl: './cockpit.component.html',
   styleUrls: ['./cockpit.component.css'],
-  encapsulation: ViewEncapsulation.None
+  //encapsulation: ViewEncapsulation.None
 })
 export class CockpitComponent implements OnInit {
   newServerName = '';
