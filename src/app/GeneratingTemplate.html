@@ -10,29 +10,40 @@
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .site-header {
-            
+
             color: white;
             padding-left: 180px;
         }
-        body {
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-  background-color: rgba(0, 0, 0, .85);
-}
 
+        body {
+            text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+            box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+            background-color: rgba(0, 0, 0, .85);
+        }
+
+        .mt-auto{
+            padding-left: 180px;
+        }
+
+        .b-example-divider-small-size {
+            height: 1rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
     </style>
 </head>
 
 <body>
     <main>
-        <div class="container">
-            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <div class="container px-4 py-1">
+            <header
+                class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
                 <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-2 link-white">Home</a></li>
-                    <li><a href="#" class="nav-link px-2 link-white">Features</a></li>
-                    <li><a href="#" class="nav-link px-2 link-white">Pricing</a></li>
-                    <li><a href="#" class="nav-link px-2 link-white">FAQs</a></li>
-                    <li><a href="#" class="nav-link px-2 link-white">About</a></li>
+                    <li><a href="#" class="nav-link px-3 link-white">Home</a></li>
+                    <li><a href="#" class="nav-link px-3 link-white">Resource Links</a></li>
+                    <li><a href="#" class="nav-link px-3 link-white">About</a></li>
                 </ul>
                 <div class="col-md-3 text-end">
                     <button type="button" class="btn btn-outline-primary me-2">Login</button>
@@ -40,16 +51,20 @@
                 </div>
             </header>
         </div>
-        <div class="container"></div>
-        <div class="site-header">
-            <div class="my-3 py-3">
-                <h2 class="display-5">Another headline</h2>
-                <p class="lead">And an even wittier subheading.</p>
+        <div class="b-example-divider-small-size"></div>
+        <div class="container px-4 py-5">
+            <div class="site-header">
+                <div class="my-3 py-3">
+                    <h2 class="display-5">Staff Management Dashboard</h2>
+                    <p class="lead">Login to view Dashboard.</p>
+                </div>
             </div>
         </div>
-        </div>
     </main>
-
+    <!-- <div class="b-example-divider"></div> -->
+    <footer class="mt-auto text-white-50">
+        <p>Praveen Sankar</p>
+      </footer>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

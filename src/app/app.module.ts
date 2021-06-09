@@ -10,6 +10,9 @@ import { GamecontrolComponent } from './gamecontrol/gamecontrol.component';
 import { OddComponent } from './odd/odd.component';
 import { EvenComponent } from './even/even.component';
 import { BasicHighlight } from './BasicDirectives/basic-higlight.directive';
+import { ActiveTogglerComponent } from './active-toggler/active-toggler.component';
+import { InactiveTogglerComponent } from './inactive-toggler/inactive-toggler.component';
+import { UserData } from './Services/UserData';
 
 @NgModule({
   declarations: [
@@ -19,14 +22,16 @@ import { BasicHighlight } from './BasicDirectives/basic-higlight.directive';
     GamecontrolComponent,
     OddComponent,
     EvenComponent,
-    BasicHighlight
+    BasicHighlight,
+    ActiveTogglerComponent,
+    InactiveTogglerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [UserData],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
